@@ -34,20 +34,28 @@ setup(
         # Add any other Python dependencies here
     ],
     license="Apache-2.0",
+    keywords=[
+        "feature selection",
+        "feature screening",
+        "variable screening",
+        "online learning",
+        "online feature selection",
+        "concept drift",
+        "data drift",
+        "machine learning",
+        "artificial intelligence",
+        "statistics"
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
         "Operating System :: Microsoft :: Windows",
         "Development Status :: 3 - Alpha", # Or Beta, Production/Stable
         "Intended Audience :: Science/Research",
-        "Topic :: AI/Machine Learning/Statistics",
-        "Topic :: AI/Machine Learning/Statistics:: Feature Selection",
-        "Topic :: AI/Machine Learning/Statistics:: Online Feature Selection",
-        "Topic :: AI/Machine Learning/Statistics:: Feature Screening",
-        "Topic :: AI/Machine Learning/Statistics:: Online Feature Screening",
-        "Topic :: AI/Machine Learning/Statistics:: Concept Drifting",
-        "Topic :: AI/Machine Learning/Statistics:: Feature Drifting",
-        "Topic :: AI/Machine Learning/Statistics:: Data Drifting"
+        "Topic :: Scientific/Engineering",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Scientific/Engineering :: Bio-Informatics",
+        "Topic :: Scientific/Engineering :: Information Analysis"
     ],
     ext_modules=[
         Extension(
