@@ -4,6 +4,9 @@ __pycache__/
 *.pyd  # Compiled Python extension (Windows)
 *.pyo
 
+# svm_light files
+*.svm
+
 # Virtual environments
 venv/
 .venv/
