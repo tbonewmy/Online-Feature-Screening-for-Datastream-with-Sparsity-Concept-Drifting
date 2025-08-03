@@ -1,0 +1,60 @@
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyd  # Compiled Python extension (Windows)
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Distribution and build artifacts
+build/
+dist/
+*.egg-info/  # For setuptools metadata
+.eggs/
+
+# Compiled C/C++/Cython extension files
+*.so     # Compiled shared objects (Linux/macOS)
+*.pyd    # Compiled dynamic-link libraries (Windows)
+*.dll    # Dynamic-link libraries (Windows, often created by compiler)
+*.lib    # Library files (Windows, often created by linker)
+*.exp    # Export files (Windows, often created by linker)
+*.obj    # Object files (from C++ compilation)
+*.o      # Object files (from C++ compilation)
+*.a      # Static libraries (Linux/macOS)
+
+# IDE and Editor files
+.vscode/        # VS Code settings
+.idea/          # PyCharm/IntelliJ IDEA files
+*.sublime-project
+*.sublime-workspace
+.DS_Store       # macOS specific files
+Thumbs.db       # Windows thumbnail cache
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Database files (if applicable)
+*.sqlite
+*.db
+
+# Environment variables files
+.env
+.flaskenv
+
+# Miscellaneous
+.DS_Store
