@@ -37,7 +37,7 @@ setup(
     classifiers=[
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.10",
-        "Operating System :: OS Independent design (only tested on Windows)",
+        "Operating System :: Microsoft :: Windows",
         "Development Status :: 3 - Alpha", # Or Beta, Production/Stable
         "Intended Audience :: Science/Research",
         "Topic :: AI/Machine Learning/Statistics",

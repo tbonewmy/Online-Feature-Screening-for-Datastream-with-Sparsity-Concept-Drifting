@@ -12,7 +12,7 @@ Please cite this paper if you use or build on our method. [doi.org/10.1109/TKDE.
 * `numpy` 2.2.4 or newer
 
 ### Note
-Although the package is designed OS independent, it was only tested on Windows. 
+Although the package is designed OS independent, it was only tested on Windows. You might need to use methods listed below other than `pip install pyscreeningfs`.
    \
    \
 **For users installing from source (e.g., if no pre-built wheels are available for your system):**
