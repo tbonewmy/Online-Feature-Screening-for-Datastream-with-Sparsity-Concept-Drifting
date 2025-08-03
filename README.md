@@ -7,12 +7,14 @@ Please cite this paper if you use or build on our method. [doi.org/10.1109/TKDE.
 
 ### Prerequisites
 
-* Python 3.10 or newer
+* `Python` 3.10 or newer
 * `pip`
 * `numpy` 2.2.4 or newer
 
-**Note: although the package is designed OS independent, it was only tested on Windows.
-
+### Note
+Although the package is designed OS independent, it was only tested on Windows. 
+   \
+   \
 **For users installing from source (e.g., if no pre-built wheels are available for your system):**
 You will need a C++ compiler compatible with your Python installation:
 * **Windows:** Microsoft Visual C++ Build Tools (part of Visual Studio, or standalone).
@@ -20,27 +22,40 @@ You will need a C++ compiler compatible with your Python installation:
 * **macOS:** Xcode Command Line Tools (install with `xcode-select --install`).
 
 ### Install via git clone
-
+1. Clone repository
+``` bash
 git clone https://github.com/yourusername/repo_name.git
-cd repo_name # Navigate into the cloned repository directory
+```
+2. Navigate into the cloned repository directory
+```
+cd repo_name 
+```
+3. Install
+```
 pip install .
+```
 
 ### Install via download
-
-downlaod the repository
-unpack to your own folder your_folder/repo_name
-
-cd repo_name # Navigate into the uppacked repository directory
-
+1. Download the repository
+2. Unpack to your own folder your_folder/repo_name
+3. Navigate into the unpacked repository directory
+``` bash
+cd repo_name  
+```
+4. Install
+``` bash
 pip install .
-
+```
 ### Install via pip (Currently unavailable)
 
 If pre-built wheels are available for your system on PyPI (coming soon!), you can install directly:
+```
 pip install pyscreeningfs
+```
 
 ## Data
-For .svm sparse data, visit [https://www.sysnet.ucsd.edu/projects/url/](https://www.sysnet.ucsd.edu/projects/url/)
+For .svm sparse data, visit [https://www.sysnet.ucsd.edu/projects/url/](https://www.sysnet.ucsd.edu/projects/url/) \
+Download and put into `data/url_svmlight/`
 
 ## Demo
-For a demo, see testing.py in root directory.
+For a demo, see testing.py in the root directory.
