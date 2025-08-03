@@ -1,7 +1,10 @@
 # Online-Feature-Screening-for-Datastream-with-Sparsity-Concept-Drifting
 
-This is a Python implementation by the authors of the paper **"Online Feature Screening for Data Streams With Concept Drift"** from Dr. Mingyuan Wang and Dr. Adrian Barbu.\
+This is a Python implementation by the authors of the paper **"Online Feature Screening for Data Streams With Concept Drift"** from Dr. Mingyuan Wang and Dr. Adrian Barbu.
+
 Please cite this paper if you use or build on our method. [doi.org/10.1109/TKDE.2022.3232752](https://doi.org/10.1109/TKDE.2022.3232752)
+
+This project enabled well-known feature screening methods, including gini index, chi-square score, mutual information, fisher-score, T-score to handle streaming data, batch data, data with drifting, and sparse data. It currently only works on binary classification data.
 
 ## Installation
 
