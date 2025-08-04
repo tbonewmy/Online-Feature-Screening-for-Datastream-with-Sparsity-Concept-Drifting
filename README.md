@@ -49,9 +49,9 @@ cd repo_name
 ``` bash
 pip install .
 ```
-### Install via pip (Currently unavailable)
+### Install via pip
 
-If pre-built wheels are available for your system on PyPI (coming soon!), you can install directly:
+If pre-built wheels are available for your system (Windows) on PyPI, you can install directly:
 ```
 pip install pyscreeningfs
 ```
