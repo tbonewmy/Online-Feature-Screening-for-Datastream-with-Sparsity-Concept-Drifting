@@ -60,5 +60,7 @@ pip install pyscreeningfs
 For .svm sparse data, visit [https://www.sysnet.ucsd.edu/projects/url/](https://www.sysnet.ucsd.edu/projects/url/) \
 Download and put into `data/url_svmlight/`
 
+For any input data/data files, the Y/label/class vector can only contain numeric value and one of the label must be 1.
+
 ## Demo
 For a demo, see testing.py in the root directory.

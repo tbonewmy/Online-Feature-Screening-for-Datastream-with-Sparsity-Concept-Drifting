@@ -1,7 +1,7 @@
 # Python bytecode and compiled files
 __pycache__/
 *.pyc
-*.pyd  # Compiled Python extension (Windows)
+*.pyd
 *.pyo
 
 # svm_light files
@@ -16,7 +16,7 @@ env/
 # Distribution and build artifacts
 build/
 dist/
-*.egg-info/  # For setuptools metadata
+pyscreeningfs.egg-info/ 
 .eggs/
 
 # Compiled C/C++/Cython extension files

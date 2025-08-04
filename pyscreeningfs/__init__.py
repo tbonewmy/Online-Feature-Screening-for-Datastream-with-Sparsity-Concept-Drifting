@@ -4,7 +4,7 @@ from . import fsonline
 from .online_screening import online_screening
 
 
-__version__ = "0.1.0" 
+__version__ = "0.1.1" 
 
 # Optional: You can make specific functions/classes available directly
 # by importing them here. Users can then call `fsonline.online_screenign(...)`

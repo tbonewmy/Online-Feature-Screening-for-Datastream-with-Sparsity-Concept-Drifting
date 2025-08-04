@@ -135,6 +135,10 @@ def online_screening(is_sparse = None, X = None, Y = None,
                     raise ValueError(f"expected Y of shape (n_samples, 1), got {Y.shape}")
                 if Y.shape[1]!=1:
                     raise ValueError(f"expected Y of shape (n_samples, 1), got {Y.shape}")
+                if np.issubdtype(Y.dtype, np.number) is not True:
+                    raise ValueError("Y can only contain numeric value, one of the label must be 1")
+                if 1 not in np.unique(Y):  
+                    raise ValueError("one of the label in Y must be 1")
                 Y = Y.astype(np.float64)
                 if not Y.flags['F_CONTIGUOUS']:
                     Y = np.asfortranarray(Y, dtype=np.float64)

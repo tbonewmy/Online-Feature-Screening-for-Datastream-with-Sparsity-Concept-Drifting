@@ -2,7 +2,7 @@ from setuptools import setup, Extension, find_packages
 import numpy as np
 import os
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 compile_args = []
