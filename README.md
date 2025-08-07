@@ -6,6 +6,8 @@ Please cite this paper if you use or build on our method. [doi.org/10.1109/TKDE.
 
 This project enabled well-known feature screening methods, including gini index, chi-square score, mutual information, fisher-score, T-score to handle streaming data, batch data, data with drifting, and sparse data. It currently only works on binary classification data.
 
+online feature selection
+
 ## Installation
 
 ### Prerequisites
